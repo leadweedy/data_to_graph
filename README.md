@@ -15,13 +15,13 @@ Designed for the Center for Alaskan Coastal Studies
  - configparser
  - str2bool
 
- To do so, open a bash/terminal/command prompt and check that Python is properly installed by running
-    "python3 --version" and
-    "pip3 --version"
+ To do so, open a bash/terminal/command prompt and check that Python is properly installed by running:
+ - python3 --version
+ - pip3 --version
  
  If both these commands run successfully, then you are ready to move onto the next step.
  To install the modules, run the following command for each of them:
-    "pip3 install *module name*"
+ - pip3 install *module name*
     
     
  Note: verify that the dates in the Excel sheet are in the proper D/M/YYYY format. The data for that row may 
