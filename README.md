@@ -3,17 +3,17 @@ Designed for the Center for Alaskan Coastal Studies
 
 
 
-###     INITIAL SETUP    #########################################################################
+###     INITIAL SETUP
 
  This is a python script used to generate graphs from specified data sets in an Excel file.
  
  The prerequisites for running the script are to install >= Python 3 and the following modules:
-        pandas
-        openpyxl
-        matplotlib
-        numpy
-        configparser
-        str2bool
+ - pandas
+ - openpyxl
+ - matplotlib
+ - numpy
+ - configparser
+ - str2bool
 
  To do so, open a bash/terminal/command prompt and check that Python is properly installed by running
     "python3 --version" and
@@ -32,7 +32,7 @@ Designed for the Center for Alaskan Coastal Studies
     
 
     
-###     RUNNING THE SCRIPT    ######################################################################
+###     RUNNING THE SCRIPT
  
  To begin running the script, place the 3 required files in the same folder - config.ini, data_to_graphv2.py, and the Excel file.
  
