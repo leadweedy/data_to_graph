@@ -232,7 +232,7 @@ for i in range(0,len(df_perc.columns)):
         annotation = r'$\frac{' + str(int(df_count.iloc[j] * \
             df_perc[df_perc.columns[i]][df_perc.index[j]])) + '}{' + str(df_count.iloc[j]) + '}$'
         axs[i].annotate(xy=(df_perc.index[j], 0.1), \
-            text=annotation, ha='center', color=bar_text_color, weight='medium')
+            text=annotation, ha='center', color=bar_text_color, weight='demi', fontsize='large')
 # add the number of sightings per year to the bar graph
 # depends on the variable, annotate_successful_sightings
 
