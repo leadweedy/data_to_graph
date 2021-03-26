@@ -34,7 +34,10 @@ Designed for the Center for Alaskan Coastal Studies
     
 ###     RUNNING THE SCRIPT
  
- To begin running the script, place the 3 required files in the same folder - config.ini, data_to_graphv2.py, and the Excel file.
+ To begin running the script, place the 3 required files in the same folder:
+ - config.ini
+ - data_to_graph.py
+ - Excel file.
  
  Open a bash/terminal/command prompt and navigate to the folder containing the files (in some systems, you can right click inside the folder and select "open terminal here")
  
@@ -42,6 +45,6 @@ Designed for the Center for Alaskan Coastal Studies
  ***note that names are case sensitive.
  
  Then you can run the following command in your bash/terminal/command prompt:
-    "python3 data_to_graph.py"
+ - python3 data_to_graph.py
     
  It will save the graphs to a PNG image file in a new folder labeled 'graphs'.
