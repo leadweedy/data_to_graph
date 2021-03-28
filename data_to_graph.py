@@ -270,4 +270,4 @@ while os.path.isfile(new_filename + extension) == True:
 plt.savefig(new_filename + extension)
 # writes the figure to a file
 
-print("Image successfully saved.")
+print("Image successfully saved to " + new_filename + extension)
