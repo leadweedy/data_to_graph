@@ -59,6 +59,7 @@
 
 import pandas
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
 import numpy as np
 import os
 from configparser import ConfigParser
@@ -226,7 +227,9 @@ for i in range(0,len(df_perc.columns)):
     axs[i].set_title(str(df_perc.columns[i]))
     axs[i].set_ylabel("% seen")
     axs[i].set_ylim([0, 1])
+    axs[i].xaxis.set_major_locator(mtick.MaxNLocator(integer=True))
 # add title and label to subplots
+# ensure x axis labels only land on whole years
 
     for j in range(0, len(df_perc.index)):
         annotation = r'$\frac{' + str(int(df_count.iloc[j] * \
